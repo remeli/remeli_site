@@ -7,6 +7,15 @@
   <link rel="stylesheet" type="text/css" href="assets/style.css" media="all">
 </head>
 <body>
+  <!-- fb js sdk -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
   <div id="wrapper">
     <!-- header -->
     <div id="header">
@@ -49,6 +58,10 @@
           </li>
           <li>
             <a href="http://www.facebook.com/pages/Remeli/295370260485082"><img src="assets/facebook.png" alt="facebook"></a>
+          </li>
+          <li>
+            <!-- fb like: -->
+            <div class="fb-like" data-href="http://remeli.kz" data-send="false" data-width="350" data-show-faces="true" data-colorscheme="dark"></div>
           </li>
         </ul>
       </div>
