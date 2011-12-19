@@ -46,8 +46,7 @@ quotes: "" "";
 }
 /* custom css rules */
 body{
-  background:url(bg.png);
-  background-size:100%;
+  background:#353535;
 }
 /* wrapper */
 #wrapper {
