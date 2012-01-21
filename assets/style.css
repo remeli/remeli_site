@@ -172,3 +172,11 @@ font-size: 12px;
   background:none;
   opacity:1;
 }
+.old-jobs{
+  margin-top:20px;
+}
+.old-jobs a{
+  font-size:18px;
+  color:#ddd !important;
+  text-decoration:none;
+}
