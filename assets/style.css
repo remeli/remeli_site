@@ -87,7 +87,7 @@ a {
 color: #cc7833;
 }
 a:hover {
-background: #cc7833;
+/*background: #cc7833;*/
 color: #fff;
 }
 /* sidebar */
@@ -116,7 +116,7 @@ color: #C3C3C3;
 color: #C3C3C3;
 }
 #content a:hover {
-background: #cc7833;
+/*background: #cc7833;*/
 color: #fff;
 }
 #content h1 {
@@ -179,4 +179,7 @@ font-size: 12px;
   font-size:18px;
   color:#ddd !important;
   text-decoration:none;
+}
+.old-jobs img:hover{
+  background: none !important;
 }
