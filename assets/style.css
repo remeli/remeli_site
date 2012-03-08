@@ -123,10 +123,11 @@ color: #fff;
 margin-top: 40px;
 margin-bottom: 5px;
 color: #ffc66d;
-font-size: 1.1em;
+font-size: 15px;
 }
 #content ul li {
-font-size: 0.9em;
+margin-bottom:-1px;
+font-size: 13px;
 }
 .old-works {
 width: 550px;
@@ -194,4 +195,7 @@ font-size: 12px;
 }
 #atonce a{
   color:#eee !important;
+}
+#atonce a:hover{
+  color:#ffc66d !important;
 }
